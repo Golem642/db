@@ -32,10 +32,22 @@
 	},
 	"autogen_scripts": true,
 	"archive": {
-		
+		"RetroArch_3dsx.7z": {
+			"RetroArch.3dsx": [
+				"retroarch_3dsx/3dsx/3ds"
+			]
+		},
+		"RetroArch_cia.7z": {
+			"RetroArch.cia": [
+				"retroarch_cia/cia/retroarch_3ds.cia"
+			],
+			"[required once] RetroArch 3DS files": [
+				"retroarch_cia/retroarch"
+			]
+		}
 	},
 	"scripts": {
-		"Core info files": [
+		"All core info files": [
 			{
 				"type": "downloadFile",
 				"file": "https://buildbot.libretro.com/assets/frontend/info.zip",
@@ -52,14 +64,7 @@
 				"file": "/info.zip"
 			}
 		],
-		"bottom_menu.png": [
-			{
-				"type": "downloadFile",
-				"file": "https://raw.githubusercontent.com/libretro/retroarch-assets/master/ctr/bottom_menu.png",
-				"output": "/retroarch/assets/ctr/bottom_menu.png"
-			}
-		],
-		"[optional] Assets": [
+		"[optional] All assets": [
 			{
 				"type": "downloadFile",
 				"file": "https://buildbot.libretro.com/assets/frontend/assets.zip",
@@ -76,7 +81,7 @@
 				"file": "/assets.zip"
 			}
 		],
-		"[optional] Overlays": [
+		"[optional] All overlays": [
 			{
 				"type": "downloadFile",
 				"file": "https://buildbot.libretro.com/assets/frontend/overlays.zip",
@@ -93,7 +98,7 @@
 				"file": "/overlays.zip"
 			}
 		],
-		"[optional] Database files": [
+		"[optional] All database files": [
 			{
 				"type": "downloadFile",
 				"file": "https://buildbot.libretro.com/assets/frontend/database-rdb.zip",
