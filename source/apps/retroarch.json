@@ -30,6 +30,10 @@
 			}
 		}
 	},
+	"autogen_scripts": true,
+	"archive": {
+		
+	},
 	"scripts": {
 		"Core info files": [
 			{
