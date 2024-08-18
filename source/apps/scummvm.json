@@ -11,16 +11,13 @@
 	"eval_downloads": true,
 	"downloads": {
 		"scummvm-3dsx.zip": {
-			"url": "f\"https://downloads.scummvm.org/frs/scummvm/{app['version'][1:]}/scummvm-{app['version'][1:]}-3ds-3dsx.zip\"",
-			"size": null
+			"url": "f\"https://downloads.scummvm.org/frs/scummvm/{app['version'][1:]}/scummvm-{app['version'][1:]}-3ds-3dsx.zip\""
 		},
 		"scummvm-cia.zip": {
-			"url": "f\"https://downloads.scummvm.org/frs/scummvm/{app['version'][1:]}/scummvm-{app['version'][1:]}-3ds-cia.zip\"",
-			"size": null
+			"url": "f\"https://downloads.scummvm.org/frs/scummvm/{app['version'][1:]}/scummvm-{app['version'][1:]}-3ds-cia.zip\""
 		},
 		"scummvm-ds.zip": {
-			"url": "f\"https://downloads.scummvm.org/frs/scummvm/{app['version'][1:]}/scummvm-{app['version'][1:]}-ds.zip\"",
-			"size": null
+			"url": "f\"https://downloads.scummvm.org/frs/scummvm/{app['version'][1:]}/scummvm-{app['version'][1:]}-ds.zip\""
 		}
 	},
 	"nightly": {
