@@ -35,17 +35,17 @@
 		}
 	},
 	"archive": {
-		"scummvm-.*-3ds-3dsx.zip": {
+		"scummvm-3dsx.zip": {
 			"scummvm.3dsx": [
 				"scummvm.3dsx"
 			]
 		},
-		"scummvm-.*-3ds-cia.zip": {
+		"scummvm-cia.zip": {
 			"scummvm.cia": [
 				"scummvm.cia"
 			]
 		},
-		"scummvm-.*-ds.zip": {
+		"scummvm-ds.zip": {
 			"scummvm.nds": [
 				"scummvm.nds"
 			]
